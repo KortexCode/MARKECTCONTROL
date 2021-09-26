@@ -13,5 +13,7 @@ namespace Dominio
         public int SalarioBruto {get; set;}
 
         public int FechaDeNacimiento {get; set;}
+
+        public string Categoria{get; set;}
     }
 }

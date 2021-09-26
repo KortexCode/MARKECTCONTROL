@@ -11,5 +11,7 @@ namespace Dominio
         public string DocumentoId {get; set;}
 
         public string Contacto {get; set;}
+
+        public string Direccion{get; set;}
     }
 }
