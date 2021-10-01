@@ -35,7 +35,7 @@ namespace Persistencia
                 proveedorEncontrado.Correo = proveedor.Correo;
                 proveedorEncontrado.DocumentoId = proveedor.DocumentoId;
                 proveedorEncontrado.Contacto = proveedor.Contacto;
-                //proveedorEncontrado.Direccion = proveedor.Direccion;
+                proveedorEncontrado.Direccion = proveedor.Direccion;
                 _appContext.SaveChanges();
 
             }
