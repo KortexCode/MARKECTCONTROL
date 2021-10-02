@@ -15657,6 +15657,11 @@
       "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Persona\\list.cshtml",
+      "TargetPath": "Pages\\Persona\\list.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

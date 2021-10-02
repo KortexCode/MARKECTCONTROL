@@ -7,13 +7,13 @@ namespace Aplicacion
 {
     class Program
     {
-        private static IRepositorioEmpleado _repoEmpleado = new RepositorioEmpleado(new Persistencia.AplicationDbContext());
+        /*private static IRepositorioEmpleado _repoEmpleado = new RepositorioEmpleado(new Persistencia.AplicationDbContext());
         private static IRepositorioInventario _repoInventario = new RepositorioInventario(new Persistencia.AplicationDbContext());
         private static IRepositorioCliente _repoCliente = new RepositorioCliente(new Persistencia.AplicationDbContext());
         private static IRepositorioProveedor _repoProveedor = new RepositorioProveedor(new Persistencia.AplicationDbContext());
         private static IRepositorioDirectivo _repoDirectivo = new RepositorioDirectivo(new Persistencia.AplicationDbContext());
         private static IRepositorioEmpresa _repoEmpresa = new RepositorioEmpresa(new Persistencia.AplicationDbContext());
-        private static IRepositorioPersonas _repoPersona = new RepositorioPersona(new Persistencia.AplicationDbContext());
+        private static IRepositorioPersonas _repoPersona = new RepositorioPersona(new Persistencia.AplicationDbContext());*/
         static void Main(string[] args)
         {
             //EJECUTAR CONSULTA DEL CRUD EMPLEADO
@@ -55,7 +55,7 @@ namespace Aplicacion
             //deletePersona(4);
 
             ////EJECUTAR CONSULTA DEL CRUD EMPRESA
-            AddEmpresa();
+            //AddEmpresa();
             //getEmpresa(2);
             //upDateEmpresa();
             //deleteEmpresa(4);
@@ -65,7 +65,7 @@ namespace Aplicacion
         }
 
         //CRUD EMPRESA
-
+        /*
         public static void getAllEmpresa(){
             var empresa = _repoEmpresa.getAllEmpresa();
             Console.WriteLine("LISTA DE EMPRESA:");
@@ -369,6 +369,6 @@ namespace Aplicacion
             Console.WriteLine("EL USUARIO CON ID "+idDirectivo+" HA SIDO REMOVIDO");
             
         }
-
+        */
     }
 }

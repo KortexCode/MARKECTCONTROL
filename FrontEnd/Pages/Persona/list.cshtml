@@ -1,0 +1,25 @@
+﻿@page
+@model MyApp.Namespace.listModel
+@{
+}
+<h1>Hola, esto va bien</h1>
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NOMBRE</th>
+    <th>CORREO</th>
+    <th>DOCUMENTO ID</th>
+  </tr>
+  @foreach(var persona in Model.Personas){ 
+    <tr>
+        <td>@persona.Id</td>
+        <td>@persona.Nombre</td>
+        <td>@persona.Correo</td>
+        <td>@persona.DocumentoId</td>
+    </tr>
+   
+  }
+  
+</table>

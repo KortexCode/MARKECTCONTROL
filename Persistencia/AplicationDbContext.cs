@@ -5,6 +5,10 @@ namespace Persistencia
 {
     public class AplicationDbContext: DbContext
     {
+        public AplicationDbContext(DbContextOptions<AplicationDbContext> options): base(options){ 
+
+
+        }
         private const string connectionString =@"Data Source=localhost\sqlexpress;Initial Catalog = MARKETCONTROLv1;Integrated Security = True";
 
         public DbSet <Cliente> clientes {get; set;}

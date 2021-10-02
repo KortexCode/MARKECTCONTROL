@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Persistencia;
+
 
 namespace FrontEnd
 {
@@ -24,6 +27,10 @@ namespace FrontEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddScoped<IRepositorioPersonas, RepositorioPersona>();
+            //services.AddSingleton<IRepositorioPersonas, RepositorioPersona>();//
+            //services.AddSingleton<Persistencia.AplicationDbContext>();//
+            services.AddDbContext<AplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnetion")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
