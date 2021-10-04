@@ -28,6 +28,12 @@ namespace FrontEnd
         {
             services.AddRazorPages();
             services.AddScoped<IRepositorioPersonas, RepositorioPersona>();
+            services.AddScoped<IRepositorioEmpleado, RepositorioEmpleado>();
+            services.AddScoped<IRepositorioEmpresa, RepositorioEmpresa>();
+            services.AddScoped<IRepositorioCliente, RepositorioCliente>();
+            services.AddScoped<IRepositorioProveedor, RepositorioProveedor>();
+            services.AddScoped<IRepositorioInventario, RepositorioInventario>();
+            services.AddScoped<IRepositorioDirectivo, RepositorioDirectivo>();
             //services.AddSingleton<IRepositorioPersonas, RepositorioPersona>();//
             //services.AddSingleton<Persistencia.AplicationDbContext>();//
             services.AddDbContext<AplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnetion")));

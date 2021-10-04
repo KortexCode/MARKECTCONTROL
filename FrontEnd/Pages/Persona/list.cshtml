@@ -2,24 +2,30 @@
 @model MyApp.Namespace.listModel
 @{
 }
-<h1>Hola, esto va bien</h1>
 
 
-<table>
-  <tr>
-    <th>ID</th>
-    <th>NOMBRE</th>
-    <th>CORREO</th>
-    <th>DOCUMENTO ID</th>
-  </tr>
-  @foreach(var persona in Model.Personas){ 
+<div class="container">
+  <table class="table table-striped table-bordered">
     <tr>
+      <th>ID</th>
+      <th>NOMBRE</th>
+      <th>CORREO</th>
+      <th>DOCUMENTO ID</th>
+      <th>DETALLES</th>
+
+    </tr>
+    @foreach(var persona in Model.Personas){ 
+      <tr>
         <td>@persona.Id</td>
         <td>@persona.Nombre</td>
         <td>@persona.Correo</td>
         <td>@persona.DocumentoId</td>
-    </tr>
+        <td>
+          <a class="btn btn-primary" asp-page="./details" asp-route-ip="@persona.Id"><i class="far fa-address-book"></i></a>
+        </td>
+      </tr>
    
-  }
+    }
   
-</table>
+  </table>
+</div>

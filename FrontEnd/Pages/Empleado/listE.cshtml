@@ -1,0 +1,34 @@
+﻿@page
+@model MyApp.Namespace.listEModel
+@{
+}
+
+<div class="container">
+  <table class="table table-striped table-bordered">
+    <tr>
+      <th>ID</th>
+      <th>NOMBRE</th>
+      <th>CORREO</th>
+      <th>DOCUMENTO ID</th>
+      <th>SALARIO BRUTO</th>
+      <th>FECHA DE NACIMIENTO</th>
+      <th>DETALLES</th>
+    </tr>
+    @foreach(var empleado in Model.Empleados){ 
+      <tr>
+        <td>@empleado.Id</td>
+        <td>@empleado.Nombre</td>
+        <td>@empleado.Correo</td>
+        <td>@empleado.DocumentoId</td>
+        <td>@empleado.SalarioBruto</td>
+        <td>@empleado.FechaDeNacimiento</td>
+        <td>@empleado.FechaDeNacimiento</td>
+        <td>
+          <a class="btn btn-primary" asp-page="./details" asp-route-ip="@empleado.Id"><i class="far fa-address-book"></i></a>
+        </td>
+      </tr>
+   
+    }
+  
+  </table>
+</div>

@@ -13,7 +13,8 @@ namespace Aplicacion
         private static IRepositorioProveedor _repoProveedor = new RepositorioProveedor(new Persistencia.AplicationDbContext());
         private static IRepositorioDirectivo _repoDirectivo = new RepositorioDirectivo(new Persistencia.AplicationDbContext());
         private static IRepositorioEmpresa _repoEmpresa = new RepositorioEmpresa(new Persistencia.AplicationDbContext());
-        private static IRepositorioPersonas _repoPersona = new RepositorioPersona(new Persistencia.AplicationDbContext());*/
+        private static IRepositorioPersonas _repoPersona = new RepositorioPersona(new Persistencia.AplicationDbContext());
+        */
         static void Main(string[] args)
         {
             //EJECUTAR CONSULTA DEL CRUD EMPLEADO
@@ -107,8 +108,9 @@ namespace Aplicacion
             Console.WriteLine("LA EMPRESA CON ID "+idEmpresa+" HA SIDO REMOVIDA");
             
         }
-
+        
         //CRUD PERSONA
+        /*
         public static void getAllPersona(){
             var persona = _repoPersona.getAllPersona();
             Console.WriteLine("LISTA DE PERSONA:");
@@ -122,17 +124,19 @@ namespace Aplicacion
         
             Console.WriteLine("REGISTRO DE PERSONA EXITOSO");
             
-            var persona = new Persona{Nombre = "Raquel Alvarez", Correo = "raqalvare@gmail.com.com", DocumentoId = "1042175565"};
+            var persona = new Persona{Nombre = "Kuwabara Kurosaki", Correo = "kuwasaki@gmail.com.com", DocumentoId = "104344565"};
             
             _repoPersona.addPersona(persona);
         }
+        
         public static void upDatePersona(){
 
             
-            var persona = new Persona{Id = 4, Nombre = "James Howlett", Correo = "agujadinamica@gmail.com", DocumentoId = "1012090443"};
+            var persona = new Persona{Id = 1, Nombre = "Koharu Shiba", Correo = "kohashi@gmail.com.com", DocumentoId = "107279565"};
             _repoPersona.updatePersona(persona);
             Console.WriteLine("SE ACTUALIZÓ LA PERSONA CON ID " + persona.Id); 
         }
+        
         public static void getPersona(int idPersona){
            
             var persona = _repoPersona.getPersona(idPersona);
@@ -150,8 +154,9 @@ namespace Aplicacion
             Console.WriteLine("EL PERSONA CON ID "+idPersona+" HA SIDO REMOVIDO");
             
         }
-
+        */
         //CRUD DE EMPLEADO
+        /*
 
         public static void getAllEmpleado(){
             var empleado = _repoEmpleado.getAllEmpleado();
@@ -166,17 +171,19 @@ namespace Aplicacion
         
             Console.WriteLine("REGISTRO DE EMPLEADO EXITOSO");
             
-            var empleado = new Empleado{Nombre = "James Howlett", Correo = "agujadinamica@gmail.com.com", DocumentoId = "1045475325", SalarioBruto=2000000, FechaDeNacimiento=1897};
+            var empleado = new Empleado{Nombre = "Bruce Wayne", Correo = "darkknight@gmail.com", DocumentoId = "1025473325", SalarioBruto=2000000, FechaDeNacimiento=1897};
             
             _repoEmpleado.addEmpleado(empleado);
         }
+        
         public static void upDateEmpleado(){
 
             
-            var empleado = new Empleado{Id = 4, Nombre = "James Howlett", Correo = "agujadinamica@gmail.com", DocumentoId = "1012090443", SalarioBruto=5000000, FechaDeNacimiento=1875};
+            var empleado = new Empleado{Id = 1, Nombre = "James Howlett", Correo = "agujadinamica@gmail.com", DocumentoId = "1012090443", SalarioBruto=5000000, FechaDeNacimiento=1875};
             _repoEmpleado.updateEmpleado(empleado);
             Console.WriteLine("SE ACTUALIZÓ EL EMPLEADO CON ID " + empleado.Id); 
         }
+        
         public static void getEmpleado(int idEmpleado){
            
             var empleado = _repoEmpleado.getEmpleado(idEmpleado);

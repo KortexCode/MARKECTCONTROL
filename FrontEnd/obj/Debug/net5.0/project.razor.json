@@ -15619,6 +15619,11 @@
   "RootNamespace": "FrontEnd",
   "Documents": [
     {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Directivo\\searchD.cshtml",
+      "TargetPath": "Pages\\Directivo\\searchD.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
@@ -15634,13 +15639,138 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empleado\\editE.cshtml",
+      "TargetPath": "Pages\\Empleado\\editE.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empleado\\createE.cshtml",
+      "TargetPath": "Pages\\Empleado\\createE.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Cliente\\updateC.cshtml",
+      "TargetPath": "Pages\\Cliente\\updateC.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empresa\\searchEm.cshtml",
+      "TargetPath": "Pages\\Empresa\\searchEm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Inventario\\editI.cshtml",
+      "TargetPath": "Pages\\Inventario\\editI.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empleado\\listE.cshtml",
+      "TargetPath": "Pages\\Empleado\\listE.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empresa\\listEm.cshtml",
+      "TargetPath": "Pages\\Empresa\\listEm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Inventario\\updateI.cshtml",
+      "TargetPath": "Pages\\Inventario\\updateI.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Persona\\update.cshtml",
+      "TargetPath": "Pages\\Persona\\update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Persona\\edit.cshtml",
+      "TargetPath": "Pages\\Persona\\edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Cliente\\searchC.cshtml",
+      "TargetPath": "Pages\\Cliente\\searchC.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Inventario\\createI.cshtml",
+      "TargetPath": "Pages\\Inventario\\createI.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Proveedor\\editP.cshtml",
+      "TargetPath": "Pages\\Proveedor\\editP.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empresa\\updateEm.cshtml",
+      "TargetPath": "Pages\\Empresa\\updateEm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empleado\\updateE.cshtml",
+      "TargetPath": "Pages\\Empleado\\updateE.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empleado\\searchE.cshtml",
+      "TargetPath": "Pages\\Empleado\\searchE.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empresa\\createEm.cshtml",
+      "TargetPath": "Pages\\Empresa\\createEm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Directivo\\editD.cshtml",
+      "TargetPath": "Pages\\Directivo\\editD.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Persona\\details.cshtml",
+      "TargetPath": "Pages\\Persona\\details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Directivo\\updateD.cshtml",
+      "TargetPath": "Pages\\Directivo\\updateD.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Proveedor\\createP.cshtml",
+      "TargetPath": "Pages\\Proveedor\\createP.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Cliente\\listC.cshtml",
+      "TargetPath": "Pages\\Cliente\\listC.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Proveedor\\searchP.cshtml",
+      "TargetPath": "Pages\\Proveedor\\searchP.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Cliente\\createC.cshtml",
+      "TargetPath": "Pages\\Cliente\\createC.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Proveedor\\updateP.cshtml",
+      "TargetPath": "Pages\\Proveedor\\updateP.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,13 +15784,53 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Persona\\search.cshtml",
+      "TargetPath": "Pages\\Persona\\search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Inventario\\searchI.cshtml",
+      "TargetPath": "Pages\\Inventario\\searchI.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Empresa\\editEm.cshtml",
+      "TargetPath": "Pages\\Empresa\\editEm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Directivo\\listD.cshtml",
+      "TargetPath": "Pages\\Directivo\\listD.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Persona\\list.cshtml",
       "TargetPath": "Pages\\Persona\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Cliente\\editC.cshtml",
+      "TargetPath": "Pages\\Cliente\\editC.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Directivo\\createD.cshtml",
+      "TargetPath": "Pages\\Directivo\\createD.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Inventario\\listI.cshtml",
+      "TargetPath": "Pages\\Inventario\\listI.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\FrontEnd\\Pages\\Proveedor\\listP.cshtml",
+      "TargetPath": "Pages\\Proveedor\\listP.cshtml",
       "FileKind": "mvc"
     }
   ],
