@@ -13,15 +13,15 @@ namespace MyApp.Namespace
     {
         private readonly IRepositorioPersonas _repo;
 
-        public IEnumerable<Persona> Personas{get; set;}
+        public Persona Personas{get; set;}
 
         public detailsModel(IRepositorioPersonas repositorioPersonas){
 
             _repo=repositorioPersonas;
         }
-        public void OnGet()
+        public void OnGet(int id)
         {
-            Personas =_repo.getAllPersona();
+            Personas =_repo.getPersona(id);
         }
     }
 }

@@ -5,6 +5,7 @@ namespace Persistencia
 {
     public class AplicationDbContext: DbContext
     {
+        
         public AplicationDbContext(DbContextOptions<AplicationDbContext> options): base(options){ 
 
 

@@ -3,23 +3,20 @@
 @{
     ViewData["Title"]="Detalles de las personas";
 }
-<h1>DETALLES DE LA PERSONAS</h1>
+<h1 style="text-align:center">DETALLES DE LA PERSONA SELECCIONADA</h1>
 <br>
 <div class="container">
   <table class="table table-striped table-bordered">
     <tr>
-      <th>ID</th>
-      <th>NOMBRE</th>
-      
-
+      <th>@Html.DisplayNameFor(model => Model.Personas.Id)</th>
+      <th>@Html.DisplayNameFor(model => Model.Personas.Nombre)</th>
     </tr>
-    @foreach(var persona in Model.Personas){ 
-      <tr>
-        <td>@persona.Id</td>
-        <td>@persona.Nombre</td>
-      </tr>
+    
+    <tr>
+      <td>@Html.DisplayFor(model => Model.Personas.Id)</td>
+      <td>@Html.DisplayFor(model => Model.Personas.Nombre)</td>
+    </tr>
    
-    }
   
   </table>
 </div>

@@ -1,0 +1,25 @@
+﻿@page
+@model MyApp.Namespace.detailsEModel
+@{
+    ViewData["Title"]="Detalles de los Empleados";
+}
+<h1>DETALLES DE LOS EMPLEADOS</h1>
+<br>
+<div class="container">
+  <table class="table table-striped table-bordered">
+    <tr>
+      <th>ID</th>
+      <th>NOMBRE</th>
+      
+
+    </tr>
+    @foreach(var empleado in Model.Empleados){ 
+      <tr>
+        <td>@empleado.Id</td>
+        <td>@empleado.Nombre</td>
+      </tr>
+   
+    }
+  
+  </table>
+</div>

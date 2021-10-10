@@ -7,7 +7,8 @@ namespace Aplicacion
 {
     class Program
     {
-        /*private static IRepositorioEmpleado _repoEmpleado = new RepositorioEmpleado(new Persistencia.AplicationDbContext());
+        /*
+        private static IRepositorioEmpleado _repoEmpleado = new RepositorioEmpleado(new Persistencia.AplicationDbContext());
         private static IRepositorioInventario _repoInventario = new RepositorioInventario(new Persistencia.AplicationDbContext());
         private static IRepositorioCliente _repoCliente = new RepositorioCliente(new Persistencia.AplicationDbContext());
         private static IRepositorioProveedor _repoProveedor = new RepositorioProveedor(new Persistencia.AplicationDbContext());
@@ -212,22 +213,24 @@ namespace Aplicacion
                 Console.WriteLine("ID "+i.Id+", "+"Nombre: "+ i.nombreProducto +", "+"Disponibilidad: "+ i.disponibilidadProducto +", "+ "Precio: "+i.precio +", "+ "stock: "+i.stock);
             }
 
-        }
+        
         public static void AddInventario(){
         
-            var producto = new Inventario{nombreProducto = "Tomate", disponibilidadProducto = "si", stock = 25, precio=600};
+            var producto = new Inventario{nombreProducto = "Lechuga", disponibilidadProducto = "si", stock = 15, precio=400};
             
             _repoInventario.addInventario(producto);
 
             Console.WriteLine("REGISTRO DE PRODUCTO EXITOSO");
-        }
+       
+        
         public static void updateInventario(){
 
             
-            var inventario = new Inventario{Id = 4, nombreProducto = "Papa", disponibilidadProducto = "si", stock = 60, precio=500};
+            var inventario = new Inventario{Id = 2, nombreProducto = "Arroz", disponibilidadProducto = "si", stock = 60, precio=1200};
             _repoInventario.updateInventario(inventario);
             Console.WriteLine("SE ACTUALIZÓ EL PRODUCTO CON ID " + inventario.Id); 
         }
+      
         public static void getInventario(int idInventario){
            
             var inventario = _repoInventario.getInventario(idInventario);
@@ -255,15 +258,17 @@ namespace Aplicacion
                 Console.WriteLine("ID "+c.Id+", "+" Nombre: "+ c.Nombre +", "+"Correo: "+ c.Correo +", "+ "DocumentoID: "+c.DocumentoId +", "+"Teléfono: "+c.Telefono);
             }
             
-        }
+        }*/
+        /*
         public static void AddCliente(){
         
             Console.WriteLine("REGISTRO DE CLIENTE EXITOSO");
             
-            var cliente = new Cliente{Nombre = "FuturoFruits", Correo = "futuro.gerencia@gmail.com", DocumentoId = "107834423231", Telefono="5783426cd"};
+            var cliente = new Cliente{Nombre = "Ramirez&Ramirez", Correo = "ramirez.adm@gmail.com", DocumentoId = "107334623231", Telefono="5353428"};
             
             _repoCliente.addCliente(cliente);
         }
+        
         public static void upDateCliente(){
 
             
@@ -299,22 +304,25 @@ namespace Aplicacion
                 Console.WriteLine("ID "+c.Id+", "+" Nombre: "+ c.Nombre +", "+"Correo: "+ c.Correo +", "+ "DocumentoID: "+c.DocumentoId +", "+"Contacto: "+c.Contacto+", "+"Dirección: "+c.Direccion);
             }
             
-        }
+        }*/
+        /*
         public static void AddProveedor(){
         
-            Console.WriteLine("REGISTRO DE CLIENTE EXITOSO");
+            Console.WriteLine("REGISTRO DE PROVEEDOR EXITOSO");
             
-            var cliente = new Cliente{Nombre = "FuturoFruits", Correo = "futuro.gerencia@gmail.com", DocumentoId = "107834423231", Telefono="5783426cd"};
+            var proveedor = new Proveedor{Nombre = "AlmacénVegetal", Correo = "vegetal@gmail.com", DocumentoId = "347834425631", Contacto="3213453678", Direccion="calle 78 #89 -12"};
             
-            _repoCliente.addCliente(cliente);
-        }
+            _repoProveedor.addProveedor(proveedor);
+        }*/
+        /*
         public static void upDateProveedor(){
 
             
-            var proveedor = new Proveedor{Id = 2, Nombre = "Mercabastos", Correo = "MercaAministracion@gmail.com", DocumentoId = "101209348745", Contacto="=5902365", Direccion="calle 2 # 45 -5"};
+            var proveedor = new Proveedor{Id = 1, Nombre = "MercadoVerde", Correo = "MercaAministracion@gmail.com", DocumentoId = "211209348745", Contacto="=5902365", Direccion="calle 2 # 45 -5"};
             _repoProveedor.updateProveedor(proveedor);
             Console.WriteLine("SE ACTUALIZÓ EL PROVEEDOR CON ID " + proveedor.Id); 
         }
+        
         public static void getProveedor(int idProveedor){
            
             var proveedor = _repoProveedor.getProveedor(idProveedor);
@@ -344,14 +352,16 @@ namespace Aplicacion
             }
             
         }
+        
         public static void AddDirectivo(){
         
             Console.WriteLine("REGISTRO DE DIRECTIVO EXITOSO");
             
-            var directivos = new Directivo{Nombre = "Nick Fury", Correo = "shield.sas@gmail.com.com", DocumentoId = "1045274325", SalarioBruto=6500000, FechaDeNacimiento=1896, Categoria="Gerente"};
+            var directivos = new Directivo{Nombre = "Diana Prince", Correo = "princed@gmail.com.com", DocumentoId = "1045212425", SalarioBruto=2323000, FechaDeNacimiento=1899, Categoria="Coordinadora"};
             
             _repoDirectivo.addDirectivo(directivos);
         }
+        
         public static void upDateDirectivo(){
 
             

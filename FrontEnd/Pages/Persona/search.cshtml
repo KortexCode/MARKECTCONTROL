@@ -2,3 +2,16 @@
 @model MyApp.Namespace.searchModel
 @{
 }
+<h1 style="text-align:center">BUSCADOR DE REGISTROS PERSONA</h1>
+<br>
+
+<p>@Html.DisplayNameFor(model => Model.persona.Id)</p>
+<p>@Html.DisplayFor(model => Model.persona.Id)</p>
+<p>@Html.DisplayNameFor(model => Model.persona.Nombre)</p>
+<p>@Html.DisplayFor(model => Model.persona.Nombre)</p>
+
+
+
+
+
+<a asp-page=".\list"><i class="fas fa-arrow-left"></i>   Volver a la lista</a>

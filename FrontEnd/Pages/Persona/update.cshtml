@@ -2,3 +2,32 @@
 @model MyApp.Namespace.updateModel
 @{
 }
+<h1 style="text-align:center">ACTUALIZACIÓN DE REGISTRO DE PERSONAS</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <input type="hidden" asp-for="persona.Id" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="persona.Nombre" class="control-label" ></label>
+                <input asp-for="persona.Nombre" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="persona.Correo" class="control-label" ></label>
+                <input asp-for="persona.Correo" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="persona.DocumentoId" class="control-label" ></label>
+                <input asp-for="persona.DocumentoId" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ACTUALIZAR" class="btn btn-success"/>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+<a asp-page=".\list"><i class="fas fa-arrow-left"></i>   Volver a la lista</a>

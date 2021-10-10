@@ -110,3 +110,10 @@ D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 
 D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Proveedor\searchP.cshtml.g.cs
 D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Proveedor\updateP.cshtml.g.cs
 D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Persona\details.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Cliente\detailsC.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Directivo\deatailsD.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleado\detailsE.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empresa\detailsEm.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Inventario\detailsI.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Proveedor\detailsP.cshtml.g.cs
+D:\Downloads\CURSO DE PROGRAMDORES\Curso de programación C #\PROYECTO DE CICLO 3\MarketControl\FrontEnd\obj\Debug\net5.0\Razor\Pages\Persona\delete.cshtml.g.cs
