@@ -4,19 +4,27 @@
 }
 <h1 style="text-align:center">LISTA DE PERSONAS</h1>
 <br>
+<a asp-page=".\create"><i class="fas fa-plus"></i>  Crear Persona</a>
+<br>
 <div class="container">
-  <a asp-page=".\create"><i class="fas fa-plus"></i>  Crear Persona</a>
-  <a asp-page=".\search" asp-route-id="3"><i class="fas fa-plus"></i>  Buscar Persona</a>
+  
+  
+  <p>BUSCA EL REGISTRO DE UNA PERSONA</p>
+  <div class="row">
+    <div class="col-md-4">
+      
+      <form action="https://localhost:5001/Persona/search" method="get">
 
-
-  <form action="https://localhost:5001/Persona/search" method="get">
-    <input type="number"  name="id"/>
-    <input type="submit" value="Buscar" class="btn btn-success"/>
-  </form>
-  <!--
-  <br>
-  <input type="number" name="id">
-  <a asp-page=".\search" asp-route-id="2"><i class="fas fa-plus"></i>  Buscar Persona</a>-->
+       
+          
+        <input type="number"  name="id" placeholder="Ingresa ID de la persona"/>
+        
+        
+        <input type="submit" value="Buscar" class="btn btn-success"/>
+        
+      </form>
+    </div>
+  </div>
   
 
   <br>
@@ -34,19 +42,14 @@
     </tr>
     @foreach(var persona in Model.Personas){ 
       <tr>
+
         <td>@persona.Id</td>
         <td>@persona.Nombre</td>
         <td>@persona.Correo</td>
         <td>@persona.DocumentoId</td>
-        <td>
-          <a class="btn btn-primary" asp-page="./details" asp-route-id="@persona.Id"><i class="far fa-address-book"></i></a>
-        </td>
-         <td>
-          <a  class="btn btn-primary" asp-page="./update" asp-route-id="@persona.Id"><i class="bi bi-wrench"></i></a> 
-        </td> 
-        <td>
-          <a  class="btn btn-primary" asp-page="./delete" asp-route-id="@persona.Id"><i class="bi bi-arrow-down-square-fill"></i></a>
-        </td>
+        <td><a class="btn btn-primary" asp-page="./details" asp-route-id="@persona.Id"><i class="far fa-address-book"></i></a></td>
+         <td><a  class="btn btn-secondary" asp-page="./update" asp-route-id="@persona.Id"><i class="fas fa-cog"></i></a> </td> 
+        <td><a  class="btn btn-warning" asp-page="./delete" asp-route-id="@persona.Id"><i class="fas fa-trash-alt"></i></a></td>
 
       </tr>
    

@@ -22,6 +22,10 @@ namespace MyApp.Namespace
         public Persona persona{get; set;}
         public void OnGet(int id)
         {
+            persona=_repo.getPersona(id);
+        }
+        public void OnPost(int id)
+        {
             _repo.deletePersona(id);
         }
     }

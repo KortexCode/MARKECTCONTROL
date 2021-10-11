@@ -5,18 +5,22 @@
 }
 <h1 style="text-align:center">DETALLES DE LA PERSONA SELECCIONADA</h1>
 <br>
-<div class="container">
-  <table class="table table-striped table-bordered">
-    <tr>
-      <th>@Html.DisplayNameFor(model => Model.Personas.Id)</th>
-      <th>@Html.DisplayNameFor(model => Model.Personas.Nombre)</th>
-    </tr>
+<div class="row">
+  <div class="col-md-4">
+    <div class="container">
+      <table class="table table-striped table-bordered">
+        <tr>
+          <th>@Html.DisplayNameFor(model => Model.Personas.Id)</th>
+          <th>@Html.DisplayNameFor(model => Model.Personas.Nombre)</th>
+        </tr>
     
-    <tr>
-      <td>@Html.DisplayFor(model => Model.Personas.Id)</td>
-      <td>@Html.DisplayFor(model => Model.Personas.Nombre)</td>
-    </tr>
+        <tr>
+          <td>@Html.DisplayFor(model => Model.Personas.Id)</td>
+          <td>@Html.DisplayFor(model => Model.Personas.Nombre)</td>
+        </tr>
    
   
-  </table>
+      </table>
+    </div>
+  </div>
 </div>

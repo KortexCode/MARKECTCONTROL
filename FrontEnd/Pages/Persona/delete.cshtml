@@ -4,4 +4,11 @@
 }
 <h1 style="text-align:center">ELIMINACIÓN DE REGISTRO PERSONA</h1>
 
+<p>¿Estás seguro que deseas eliminar a la persona seleccionada?</p>
+<form method="post">
 
+    <input asp-for="persona.Id" type="hidden">
+    <input type="submit" class="btn btn-danger" value="BORRAR">
+    <a asp-page=".\list" class="btn btn-primary">REGRESAR A LA LISTA</a>
+
+</form>

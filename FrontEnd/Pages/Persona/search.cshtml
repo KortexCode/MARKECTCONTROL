@@ -4,14 +4,14 @@
 }
 <h1 style="text-align:center">BUSCADOR DE REGISTROS PERSONA</h1>
 <br>
-
-<p>@Html.DisplayNameFor(model => Model.persona.Id)</p>
-<p>@Html.DisplayFor(model => Model.persona.Id)</p>
-<p>@Html.DisplayNameFor(model => Model.persona.Nombre)</p>
-<p>@Html.DisplayFor(model => Model.persona.Nombre)</p>
-
-
-
+<dl>
+  <dt>@Html.DisplayNameFor(model => Model.persona.Nombre)</dt>
+  <dd>@Html.DisplayFor(model => Model.persona.Nombre)</dd>
+  <dt>@Html.DisplayNameFor(model => Model.persona.Correo)</dt>
+  <dd>@Html.DisplayFor(model => Model.persona.Correo)</dd>
+  <dt>@Html.DisplayNameFor(model => Model.persona.DocumentoId)</dt>
+  <dd>@Html.DisplayFor(model => Model.persona.DocumentoId)</dd>
+</dl>
 
 
 <a asp-page=".\list"><i class="fas fa-arrow-left"></i>   Volver a la lista</a>
