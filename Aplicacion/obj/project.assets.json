@@ -5839,11 +5839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "D:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\Cesar Cortes Jr\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\obj\\",
+      "outputPath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5864,8 +5864,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "D:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Persistencia\\Persistencia.csproj"
+            "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Persistencia\\Persistencia.csproj"
             }
           }
         }

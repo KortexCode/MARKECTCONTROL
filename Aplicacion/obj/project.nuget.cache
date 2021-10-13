@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oet4evFaZZkzsFpBZ0wd19JGqXBfIGQTTq/uhZh8J6i4LNCCFWjfk60fahjOuPt/CjcLSH9QiCRLAOUXq2Utpg==",
+  "dgSpecHash": "tmZn6/ctnhUwK7HRiLFOKTTckef/M9nYQTvSkz6VIe+5Ms+vDVG6JJIATWBSReTsbwYZh885EfBSsE187II5dA==",
   "success": true,
-  "projectFilePath": "D:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "d:\\Downloads\\CURSO DE PROGRAMDORES\\Curso de programación C #\\PROYECTO DE CICLO 3\\MarketControl\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cesar Cortes Jr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cesar Cortes Jr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

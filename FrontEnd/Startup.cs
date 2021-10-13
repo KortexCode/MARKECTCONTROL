@@ -37,6 +37,7 @@ namespace FrontEnd
             //services.AddSingleton<IRepositorioPersonas, RepositorioPersona>();//
             //services.AddSingleton<Persistencia.AplicationDbContext>();//
             services.AddDbContext<AplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnetion")));
+            services.AddControllersWithViews();//importante
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,8 +55,8 @@ namespace FrontEnd
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
+            app.UseStaticFiles();//importante
+            app.UseAuthentication();//importante
             app.UseRouting();
 
             app.UseAuthorization();
@@ -63,6 +64,7 @@ namespace FrontEnd
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                //endpoints.MapAreaControllerRoute(name= "default", pattern ="{controller=conference}/{action=index}/{id?}");
             });
         }
     }
